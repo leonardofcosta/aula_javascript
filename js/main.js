@@ -144,3 +144,12 @@ function redirecionar() {
     //window.open("http://www.google.com")
     window.location.href = "http://www.google.com"
 }
+
+function trocar() {
+    console.log("trocar texto")
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!"
+}
+
+function voltar() {
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+}
