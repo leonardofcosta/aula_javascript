@@ -54,3 +54,14 @@ var frutas = [{nome: "maça", cor: "vermelha"},
 console.log(frutas)
 
 console.log(frutas[1].nome)
+
+
+// Condicional
+
+var idade = prompt("Informe sua idade: ")
+
+if (idade > 18) {
+    console.info("Maior de idade")
+} else {
+    console.warn("Menor de idade")
+}
