@@ -83,3 +83,21 @@ console.log("loop for")
 for (count = 0; count <= 5; count++) {
     console.log(count)
 }
+
+
+// trabalhando com data
+var d = new Date()
+console.log(d)
+
+// imprimindo o mês
+console.log(d.getMonth()+1)
+
+// imprimindo os minutos
+console.log(d.getMinutes())
+
+// imprimindo o dia
+console.log(d.getDay())
+
+// imprimindo a hora
+console.log(d.getHours())
+
