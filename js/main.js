@@ -58,10 +58,28 @@ console.log(frutas[1].nome)
 
 // Condicional
 
-var idade = prompt("Informe sua idade: ")
+var idade = 18//prompt("Informe sua idade: ")
 
 if (idade > 18) {
     console.info("Maior de idade")
 } else {
     console.warn("Menor de idade")
+}
+
+
+// laços de repetição
+
+// while
+console.log("loop while")
+var count = 0;
+while (count <= 5) {
+    console.log(count)
+
+    count++
+}
+
+// for
+console.log("loop for")
+for (count = 0; count <= 5; count++) {
+    console.log(count)
 }
