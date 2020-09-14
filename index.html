@@ -13,7 +13,9 @@
 
     <p onclick="redirecionar()">Google</p>
 
-    <p id="mousemove" onmouseover="trocar()" onmouseout="voltar()">Passe o mouse aqui</p>
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
 
     <script type="text/javascript" src="js/main.js"></script>
 </body>
