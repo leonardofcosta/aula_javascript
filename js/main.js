@@ -101,3 +101,32 @@ console.log(d.getDay())
 // imprimindo a hora
 console.log(d.getHours())
 
+
+// funções
+
+// função para efetuar soma
+function soma(n1, n2) {
+    return n1 + n2
+}
+
+console.log(soma(1,1))
+
+// função para substituir palavra em uma frase
+function setReplace(frase, nome, novo_nome) {
+    return frase.replace(nome, novo_nome)
+}
+
+console.log(setReplace("Vai Japão", "Japão", "Brasil"))
+
+
+function validaIdade(idade) {
+    var validar = false;
+    if (idade >= 18) {
+        validar = true
+    }
+
+    return validar
+}
+
+idade = 20
+console.log(validaIdade(idade))
