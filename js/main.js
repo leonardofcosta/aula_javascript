@@ -159,3 +159,7 @@ function voltar(elemento) {
 function load() {
     console.log("Pagina carregada!!")
 }
+
+function funcaoChange(elemento) {
+    console.log(elemento.value)
+}
