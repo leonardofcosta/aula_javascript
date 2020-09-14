@@ -138,3 +138,9 @@ function clicou1() {
 function clicou() {
     document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!</b>"
 }
+
+// redirecionar
+function redirecionar() {
+    //window.open("http://www.google.com")
+    window.location.href = "http://www.google.com"
+}
