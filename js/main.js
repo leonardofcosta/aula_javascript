@@ -145,11 +145,13 @@ function redirecionar() {
     window.location.href = "http://www.google.com"
 }
 
-function trocar() {
-    console.log("trocar texto")
-    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!"
+function trocar(elemento) {
+    //console.log("trocar texto")
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!"
+    elemento.innerHTML = "Obrigado por passar o mouse!"
 }
 
-function voltar() {
-    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+function voltar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui"
 }
