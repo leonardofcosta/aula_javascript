@@ -155,3 +155,7 @@ function voltar(elemento) {
     //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
     elemento.innerHTML = "Passe o mouse aqui"
 }
+
+function load() {
+    console.log("Pagina carregada!!")
+}
