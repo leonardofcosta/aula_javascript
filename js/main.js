@@ -130,3 +130,11 @@ function validaIdade(idade) {
 
 idade = 20
 console.log(validaIdade(idade))
+
+function clicou1() {
+    console.log("Obrigado por clicar")
+}
+
+function clicou() {
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!</b>"
+}
